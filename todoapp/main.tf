@@ -14,3 +14,12 @@ module "rg-1" {
  
   
 }
+
+module "rg-2" {
+  source = "../modules/rg"
+
+  resource_group_name = "ra_jitu-2"
+  resource_group_location = "East US"
+ 
+  
+}
